@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boardriders</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+    <header>
+        <div class="header">
+            <div class="header-list">
+                <div class="logo-div">
+                    <a href=""><img class="logo" src="./logo-mini.jpeg" alt=""></a>
+                </div>
+                <div class="header-links">
+                    <a id="openModalBtn" class="header-link" href="#">Search</a>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn">&times;</span>
+                        <h1>Type your search here</h1>
+                        <input id="searchInput" class="search" type="text" placeholder="Search..">
+                        <div id="searchResults" class="search-results"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </header>
+    <div class="section1">
+        <h1 class="title-text">
+            "Sport has the power to change the world. It has the power to inspire, it has the power to bring people together like little else." <br><br> Nelson Mandela
+        </h1>
+    </div>
+    <div class="section2">
+        <div class="items-container">
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -33%
+                    </div>
+                    
+                </div>
+                <div class="pics">
+                    <img class="pic-of-card" src="./probyi.jpg" alt="">
+                    <img src="./back-1.webp" alt="" class="back-of-pic">
+                </div>
+                
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        199 $
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -33%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic1.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        199 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -25%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic-2.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        219 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -50%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic3.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        159 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -25%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic4.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        189 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -10%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic5.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        259 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -33%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./probyi.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        199 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -33%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic1.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        199 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -25%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic-2.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        219 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -50%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic3.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        159 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -25%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic4.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        189 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -10%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic5.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        259 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -33%
+                    </div>
+                    
+                </div>
+                <img class="pic-of-card" src="./probyi.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        199 $
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -33%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic1.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        199 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -25%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic-2.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        219 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -50%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic3.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        159 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -25%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic4.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        189 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="whole-card" class="whole-card">
+                <div class="top-of-card">
+                    <div class="discount">
+                        -10%
+                    </div>
+                    <div class="type">
+                        SHOES
+                    </div>
+                </div>
+                <img class="pic-of-card" src="./prod-pic5.jpg" alt="">
+                <div class="mid-of-card">
+                    <div class="name-of">
+                        JORDAN 5
+                    </div>
+                </div>
+                <div class="bottom-of-card">
+                    <div class="price">
+                        259 $
+                    </div>
+                    <div class="edit-delete">
+                        <img class="edit" src="./edit.png" alt="">
+                        <img class="delete" src="./trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+
+        </div>
+    </div>
+    <div class="section3">
+        <div class="filter-sort-container">
+            <div class="filters">
+                <h3 class="filter-title">Filters</h3>
+                <div class="filter-vision">
+                    <h4 class="filter-title2">Type</h4>
+                    <label>
+                        <input  type="checkbox" name="type" value="SHOES"> <p class="filter-li">SHOES</p>
+                    </label>
+                    <label>
+                        <input class="filter-li" type="checkbox" name="type" value="OUTERWEAR"><p class="filter-li">OUTERWEAR</p> 
+                    </label>
+                    <label>
+                        <input class="filter-li" type="checkbox" name="type" value="PANTS"><p class="filter-li">PANTS</p> 
+                    </label>
+                    <label>
+                        <input class="filter-li" type="checkbox" name="type" value="SHORTS"><p class="filter-li">SHORTS</p> 
+                    </label>
+                    <label>
+                        <input class="filter-li" type="checkbox" name="type" value="SWEATERS"><p class="filter-li">SWEATERS</p> 
+                    </label>
+                </div>
+            </div>
+            <div class="sort">
+                <h3 class="filter-title">Sort by</h3>
+                <select name="sort" id="sort">
+                    <option value="price-low-high"><p class="filter-li">Price: Low to High</p></option>
+                    <option value="price-high-low"><p class="filter-li">Price: High to Low</p></option>
+                </select>
+            </div>
+        </div>
+        <div id="items-container" class="items-container">
+            
+        </div> 
+        <div class="pagination">
+
+        </div>    
+    </div>
+
+
+
+    <div class="footer">
+        <div class="mini-block1">
+            <a href=""><img class="footer-logo" src="./logo-mini.jpeg" alt=""></a>
+            <div class="social-media">
+                <a href=""><img class="social-logo" src="./Group 1024.png" alt=""></a>
+            </div>
+        </div>
+        <div class="mini-block2">
+            <div class="list">
+                <span class="list-title">Contacts</span>
+                <div class="phone">
+                    <div class="space">
+                        <a href=""><img class="contacts-logo" src="./Vector.png" alt=""></a>
+                        <p class="number-email">655755656</p>
+                    </div>
+                    <p class="text">Free hotline
+                        Daily from 9 to 21</p>
+                </div>
+                <div class="email">
+                    <a href=""><img class="contacts-logo" src="./Vector копія.png" alt=""></a>
+                    <p class="number-email">655755656</p>
+                    <p class="text">Free hotline
+                        Daily from 9 to 21</p>
+                </div>
+            </div>
+            <div class="list">
+                <span class="list-title">Help</span>
+                <p class="list-li">Shipping</p>
+                <p class="list-li">Payment</p>
+                <p class="list-li">Reviews</p>
+                <p class="list-li">Discounts</p>
+            </div>
+            <div class="list">
+                <span class="list-title">Company</span>
+                <p class="list-li">Contacts</p>
+                <p class="list-li">About Us</p>
+                <p class="list-li">Vacancies</p>
+                <p class="list-li">Public Offer</p>
+            </div>
+            <div class="list">
+                <span class="list-title">Sport Madness Inc.</span>
+                <p class="list-li">Fran</p>
+                <p class="list-li">Quiksilver</p>
+                <p class="list-li">Roxy</p>
+                <p class="list-li">Sport Club</p>
+            </div>
+        </div>
+        <div class="mini-block3">
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
